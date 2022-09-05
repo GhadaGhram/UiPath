@@ -1,0 +1,67 @@
+{
+  "name": "ProjetDautomatisationDeTest",
+  "description": "Projet d'automatisation de test",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Jira.Activities": "[2.2.0]",
+    "UiPath.Jira.IntegrationService.Activities": "[3.0.0]",
+    "UiPath.JiraSoftware.Activities": "[1.0.3.22730]",
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]",
+    "UiPathTeam.JiraGet.Activities": "[1.0.0.116]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.115566061",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "559e3d65-d15d-4351-9121-eaf632007e1d",
+        "testCaseType": "TestCase",
+        "fileName": "Test\\ModifProfil.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d398443a-e870-4d68-91d3-145f6d47ee05",
+        "dataVariationFilePath": ".variations\\Test_Data_Feuil1.json",
+        "testCaseType": "TestCase",
+        "fileName": "Test\\Connexion.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
